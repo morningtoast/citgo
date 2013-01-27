@@ -1,0 +1,59 @@
+/*
+	COMMON STYLES + CUSTOM UTILITY
+	ALL DEVICES
+*/
+
+
+/* ELEMENTS */
+body {
+}
+
+
+
+/* UTILITY */
+
+
+
+
+
+/* 3-Bar menu icon; anchor text optional */
+ul.mobile-menu { list-style:none; font-size:32px; }
+ul.mobile-menu li { font-weight:bold; }
+ul.mobile-menu a { color: #000; text-decoration:none; position: relative; }
+ul.mobile-menu li a { padding-left:1.2em }
+ul.mobile-menu li a:before {
+  content:'';
+  position:absolute;
+  top: 27%;
+  left:0px;
+  width:.75em; /* 12px/16px */
+  height:.125em; /* 2px/16px */
+  border-top: .375em double #000; /* 6px/16px */
+  border-bottom: .125em solid #000; /* 2px / 16px */
+}
+
+
+
+
+
+/* THEME */
+
+
+
+
+/* DEVICE - Matches Bootstrap breakpoints */
+
+
+/* Phone device ------ */
+@media (max-width:480px) {
+
+
+}
+
+
+/* Tablet device ------ */
+@media (min-width:768px) and (max-width:979px) {
+ 
+
+}
+
